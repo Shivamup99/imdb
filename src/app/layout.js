@@ -5,6 +5,7 @@ import Providers from './Providers'
 import Navbar from '@/components/Navbar'
 import Search from '@/components/Searchbox'
 import Searchbox from '@/components/Searchbox'
+import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           <Navbar/>
           <Searchbox/>
           {children}
+          <Footer/>
         </Providers>
       </body>
     </html>
