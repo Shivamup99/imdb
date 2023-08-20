@@ -30,9 +30,11 @@ export default function Header() {
           <p className="font-semibold hidden sm:inline">Shows</p>
         </Link>
       </div>
-      <div className='flex items-center mx-2 gap-5 cursor-pointer'>
-        <h2 className='font-bold bg-amber-400 py-1 px-2 rounded-lg text-2xl'>imdb</h2>
+      <div className="flex items-center mx-2 gap-5 cursor-pointer">
         <DarkModeSwitch />
+        <h2 className="font-bold bg-amber-400 py-1 px-2 rounded-lg text-2xl">
+          imdb
+        </h2>
       </div>
     </div>
   );

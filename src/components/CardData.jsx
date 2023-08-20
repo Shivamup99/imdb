@@ -9,7 +9,7 @@ export default function CardData({result}) {
         <Image width={400} height={400}
           className="rounded-t-lg"
           src={`https://image.tmdb.org/t/p/original${result?.backdrop_path || result?.poster_path}`}
-          alt='sds' style={{maxWidth:"100%", height:"auto"}}
+          alt='sds' style={{maxWidth:"100%", height:"300px", objectFit:'cover'}}
         />
       <div className="p-5">
         <a href="#">

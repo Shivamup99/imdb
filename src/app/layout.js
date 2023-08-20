@@ -3,6 +3,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Providers from './Providers'
 import Navbar from '@/components/Navbar'
+import Search from '@/components/Searchbox'
+import Searchbox from '@/components/Searchbox'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -17,6 +19,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           <Navbar/>
+          <Searchbox/>
           {children}
         </Providers>
       </body>
